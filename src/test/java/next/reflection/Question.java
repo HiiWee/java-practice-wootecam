@@ -15,6 +15,12 @@ public class Question {
 
     private int countOfComment;
 
+    public int countOfComment2;
+    protected int countOfComment3;
+    int countOfComment4;
+    static int countOfComment5;
+    static final int countOfComment6 = 6;
+
     public Question(String writer, String title, String contents) {
         this(0, writer, title, contents, new Date(), 0);
     }
